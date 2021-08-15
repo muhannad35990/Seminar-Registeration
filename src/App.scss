@@ -1,0 +1,43 @@
+// COLORS
+$color-primary1: #a9eac4;
+$color-primary2: #aadbeb;
+$color-primary3: #ecc5aa;
+
+$color-grey-light-1: #faf9f9;
+$color-grey-light-2: #f4f2f2;
+$color-grey-light-3: #f0eeee;
+$color-grey-light-4: #ccc;
+
+$color-grey-dark-1: #333;
+$color-grey-dark-2: #777;
+$color-grey-dark-3: #999;
+
+$color-white: #fff;
+$color-black: #000;
+
+// FONT
+$default-font-size: 1.6rem;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%; //define 1rem=10px 10/16*100=62.5%
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: $default-font-size;
+  line-height: 1.7;
+  background-color: $color-grey-dark-1;
+}
+
+@import "pages/Home/home";
+@import "components/FirstStep/firstStep";
+@import "components/SecondStep/secondStep";

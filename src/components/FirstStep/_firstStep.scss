@@ -1,0 +1,74 @@
+.firstStep {
+  &__content {
+    &__names {
+      &__title {
+        font-size: 1.6rem;
+        font-weight: bold;
+        margin: 2rem 0 1rem 0;
+      }
+    }
+  }
+}
+.question {
+  font-size: 1.6rem;
+  font-weight: 500;
+  display: inline-block;
+}
+.MuiFormLabel-root,
+.MuiMenuItem-root {
+  font-size: 1.3rem !important;
+}
+.MuiFormControl-root {
+  margin-bottom: 1.5rem !important;
+}
+.imageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.checkedImage {
+  width: 10rem;
+}
+
+.container {
+  width: 30%;
+  height: 100%;
+  min-width: 25rem;
+  padding: 3rem 2rem;
+  border-radius: 2px;
+  position: relative;
+  margin-right: 2rem;
+  margin-top: 5rem;
+
+  &__content {
+    height: 100%;
+  }
+  &__inactive {
+    opacity: 0.5;
+    background: #ccc;
+  }
+  &__title {
+    padding: 0.5rem;
+    height: 5rem;
+    position: absolute;
+    top: 0;
+    left: 3rem;
+    margin-top: -2.5rem;
+    width: 10rem;
+    background-color: $color-grey-light-2;
+    color: $color-black;
+    border-radius: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    z-index: 1000;
+  }
+  &__step1 {
+    background-color: $color-primary1;
+  }
+  &__step2 {
+    background-color: $color-primary2;
+  }
+  &__step3 {
+    background-color: $color-primary3;
+  }
+}
